@@ -1,4 +1,63 @@
-p {
-    font-family: "Times New Roman" ;
-    color : orangered;
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: Consolas;
+    color: white;
+}
+
+body nav {
+    position: sticky;
+    top: 0;
+    border-color: white;
+    border-width: 0px;
+    border-bottom: 2px;
+    background-color: black;
+    place-items: center;
+    border-style: solid;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+li a {
+    text-decoration: underline;
+    color: white;
+}
+
+.parent {
+    padding: 1rem;
+}
+
+.flex-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+#bio {
+    max-width:600px;
+    margin: 0px;
+    float: left;
+    padding:20px;
+    line-height: 150%;
 }
