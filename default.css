@@ -16,9 +16,9 @@ body nav {
     border-color: white;
     border-width: 0px;
     border-bottom: 2px;
+    border-style: solid;
     background-color: black;
     place-items: center;
-    border-style: solid;
 }
 
 ul {
@@ -34,9 +34,9 @@ li {
     font-size: 1rem;
     font-weight: bold;
 }
-li a {
-    text-decoration: underline;
-    color: white;
+
+a {
+    color: lime;
 }
 
 .parent {
@@ -52,6 +52,8 @@ li a {
 
 .flex-child {
     flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 #bio {
@@ -60,4 +62,24 @@ li a {
     float: left;
     padding:20px;
     line-height: 150%;
+}
+
+.project-summary {
+    border-color: white;
+    border-width: 0px;
+    border-width: 2px;
+    border-style: solid;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    line-height: 150%;
+    float: left;
+}
+
+div img {
+    height: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
